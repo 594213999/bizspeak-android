@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 允许明文 HTTP：Ollama 本身不支持 HTTPS。
+     模拟器访问宿主机用 10.0.2.2；真机用局域网 IP（192.168.x.x 等）。 -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
